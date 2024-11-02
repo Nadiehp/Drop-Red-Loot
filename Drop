@@ -1,0 +1,12 @@
+local args = {
+    [1] = "Red Loot"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+
+wait(0.7)
+local args = {
+    [1] = "Red Loot"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
